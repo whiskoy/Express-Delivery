@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3D3744",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "跑腿er",
+    "backgroundColor": "#3D3744",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#CDCDCD",
+    "selectedColor": "#3D3744",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "取件",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index-on.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "订单",
+        "iconPath": "image/menu.png",
+        "selectedIconPath": "image/menu-on.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/user-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap83.json"
+}
